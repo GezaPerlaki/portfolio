@@ -1,13 +1,9 @@
-:root {
-  --primary-white: #fff;
-  --primary-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0);
-}
-
 .logo {
   width: 3rem;
 }
-
+.navbar {
+  z-index: 2;
+}
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   font-size: 0.8rem;
@@ -36,4 +32,9 @@ nav ul li {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
 }
