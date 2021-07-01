@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 :root {
-  --primary-white: #fff;
+  --primary-white: #ffffff;
   --primary-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-dark: rgb(52, 58, 6);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-light-grey: #f4f4f4;
 }
 
 body {
