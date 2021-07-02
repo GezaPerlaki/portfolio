@@ -13,9 +13,11 @@
     "bootstrap": "^5.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-popupbox": "^2.0.8",
     "react-scripts": "4.0.3",
     "react-tsparticles": "^1.30.1",
     "react-typing-effect": "^2.0.5",
+    "reactjs-popup": "^2.0.4",
     "tsparticles": "^1.30.1",
     "web-vitals": "^1.1.2"
   },

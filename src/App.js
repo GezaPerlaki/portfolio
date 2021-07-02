@@ -6,6 +6,7 @@ import MyParticles from './components/MyParticles/MyParticles';
 import AboutMe from './components/AboutMe/AboutMe';
 import Services from './components/Services/Services';
 import Experience from './components/Experience/Experience';
+import Projects from './components/AboutMe/Projects/Projects';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutMe />
       <Services />
       <Experience />
+      <Projects />
     </>
   );
 }
