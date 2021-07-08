@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Services from './components/Services/Services';
 import Experience from './components/Experience/Experience';
 import Projects from './components/AboutMe/Projects/Projects';
+import Contacts from './components/Contacts/Contacts';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <Experience />
       <Projects />
+      <Contacts />
     </>
   );
 }
