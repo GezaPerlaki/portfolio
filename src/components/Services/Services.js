@@ -6,8 +6,8 @@ import './Services.css';
 
 const Services = () => {
   return (
-    <div className='services'>
-      <h1 className='py-5'>my services</h1>
+    <div id='services' className='services'>
+      <h2 className='py-5'>my services</h2>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-3 col-md-6 col-sm-6'>

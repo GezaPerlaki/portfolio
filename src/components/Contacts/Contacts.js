@@ -45,7 +45,7 @@ const Contacts = () => {
   };*/
 
   return (
-    <div className='contacts'>
+    <div id='contacts' className='contacts'>
       <div className='text-center'>
         <h1>contact me</h1>
         <p>
@@ -57,7 +57,7 @@ const Contacts = () => {
       <div className='container'>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className='row'>
-            <div className='col-md-6 col-xs-12'>
+            <div className='col-md-6 col-12'>
               {/* NAME INPUT */}
               <div className='text-center'>
                 <input
@@ -142,7 +142,7 @@ const Contacts = () => {
               )}
             </div>
 
-            <div className='col-md-6 col-xs-12'>
+            <div className='col-md-6 col-12'>
               {/* DESCRIPTION */}
               <div className='text-center'>
                 <textarea

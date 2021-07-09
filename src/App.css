@@ -2,13 +2,16 @@
 
 :root {
   --primary-white: #ffffff;
-  --primary-orange: #f9ab00;
-  --primary-dark: rgb(2, 2, 34);
-  --primary-red: #ef4035;
-  --primary-hover-red: #f33501;
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgb(52, 58, 64);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-black: #000000;
+  --primary-transparent-black: rgba(0, 0, 0, 0.7);
+  --primary-green: green;
 }
 
 body {

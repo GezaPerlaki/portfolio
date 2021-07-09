@@ -3,7 +3,7 @@
   background-image: url('../../images/headerImage.png');
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 .main-info {
   z-index: 1;
@@ -20,7 +20,7 @@
 }
 
 h1 {
-  color: var(--primary-orange);
+  color: rgb(194, 194, 194);
   text-transform: uppercase;
 }
 
@@ -31,16 +31,16 @@ h1 {
 }
 
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 1px solid rgb(126, 1, 1);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: rgb(194, 194, 194);
   margin: 2rem;
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
+  background-color: rgb(150, 0, 0);
   transition: 0.2 ease-in-out;
 }

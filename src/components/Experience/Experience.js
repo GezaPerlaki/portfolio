@@ -3,7 +3,7 @@ import './Experience.css';
 
 const Experience = () => {
   return (
-    <div className='experience'>
+    <div id='experience' className='experience'>
       <div className='d-flex justify-content-center my-5'>
         <h1>experience</h1>
       </div>

@@ -1,8 +1,11 @@
-.logo {
+/*.logo {
   width: 3rem;
-}
+}*/
 .navbar {
-  z-index: 2;
+  z-index: 3;
+  background-color: rgba(11, 10, 15, 0.575);
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 nav a.nav-link {
   letter-spacing: 0.0375rem;
@@ -17,17 +20,19 @@ nav ul li {
 .nav-link {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
-  color: var(--primary-white) !important;
+  color: rgb(194, 194, 194) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
-.nav-link.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+.nav-link:focus {
+  border-top: 0.1875rem solid rgb(126, 1, 1);
+  color: var(--primary-white) !important;
 }
 .nav-link:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid rgb(150, 0, 0);
+  color: var(--primary-white) !important;
 }
-
+/*
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
@@ -38,3 +43,4 @@ nav ul li {
     width: 7rem;
   }
 }
+*/
