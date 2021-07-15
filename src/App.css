@@ -17,3 +17,9 @@
 body {
   font-family: 'Roboto Condesed', sans-serif !important;
 }
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(4, 2, 10);
+}

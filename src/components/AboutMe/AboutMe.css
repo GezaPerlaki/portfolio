@@ -1,16 +1,19 @@
 .about-container {
   background-image: linear-gradient(rgb(34, 34, 34), rgb(244, 244, 244));
+  max-width: 100%;
 }
 
-.image-wrap {
+.image-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .profile-img {
+  opacity: 50%;
   width: 16rem;
   border-radius: 50%;
+  box-shadow: 3px 3px 3px 3px;
 }
 
 .about-p {
@@ -30,15 +33,24 @@
   }
 }
 
-.skills-container {
+.skills-items-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.skills-item {
-  padding: 15px;
+.skill-item {
+  padding: 0.875rem;
+  color: black;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
+
+.skill-item:hover {
+  cursor: pointer;
+  opacity: 50%;
+  background-image: ;
 }
 
 @media (max-width: 468px) {

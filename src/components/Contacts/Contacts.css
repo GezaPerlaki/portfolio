@@ -3,14 +3,14 @@
   padding: 3rem 0;
 }
 
-.contacts h1 {
-  color: var(--primary-orange);
+.contacts h2 {
+  color: white;
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
 
 .contacts p {
-  color: var(--primary-light-grey);
+  color: #6b6b6b;
   font-size: 1.2rem;
 }
 
@@ -21,9 +21,9 @@
   background: none;
   resize: none;
   border: 0;
-  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-bottom: 0.125rem solid #6b6b6b;
   border-radius: 0;
-  color: var(--primary-orange);
+  color: #f5aa09;
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1rem;
@@ -37,8 +37,8 @@
 .contacts input:focus,
 .contacts textarea:focus {
   background: transparent;
-  color: var(--primary-orange);
-  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  color: #f5aa09;
+  border-bottom: 0.125rem solid #6b6b6b;
 }
 
 .contacts textarea {
@@ -51,13 +51,21 @@
   background: none;
 }
 
+.contact-btn:hover {
+  background-color: #f78707;
+}
+
 .line {
   position: relative;
   top: -0.8rem;
   width: 0;
   height: 0.125rem;
-  background: var(--primary-orange);
+  background: rgb(126, 1, 1);
   display: inline-block;
+}
+
+.line-position-correction {
+  top: -0.737rem;
 }
 
 input:focus + .line,
@@ -75,14 +83,14 @@ textarea.form-control {
 }
 
 .error-message {
-  color: var(--primary-white);
-  background: var(--primary-hover-red);
+  color: white;
+  background: red;
   text-align: left;
 }
 
 .success-message {
   font-weight: 900;
-  color: var(--primary-green);
+  color: rgb(20, 197, 20);
 }
 
 @media (max-width: 768px) {

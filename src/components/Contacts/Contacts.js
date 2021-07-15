@@ -47,7 +47,7 @@ const Contacts = () => {
   return (
     <div id='contacts' className='contacts'>
       <div className='text-center'>
-        <h1>contact me</h1>
+        <h2>contact me</h2>
         <p>
           Please fill out the form and describe you project needs and I'll
           contact you as soon as possible.
@@ -94,7 +94,7 @@ const Contacts = () => {
                     required: 'Please add your phone number',
                   })}
                 />
-                <div className='line'></div>
+                <div className='line line-position-correction'></div>
               </div>
               {errors.phone && (
                 <span className='error-message'>{errors.phone.message}</span>
@@ -116,7 +116,7 @@ const Contacts = () => {
                     },
                   })}
                 />
-                <div className='line'></div>
+                <div className='line line-position-correction'></div>
               </div>
               {errors.email && (
                 <span className='error-message'>{errors.email.message}</span>

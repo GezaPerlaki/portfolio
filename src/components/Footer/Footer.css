@@ -1,15 +1,15 @@
 .footer {
-  background: var(--primary-black);
-  color: var(--primary-dark-grey);
-  padding: 3rem;
+  background: black;
+  color: rgb(194, 192, 192);
+  padding: 1rem;
 }
 
-.footer a {
+.footer button {
   text-decoration: none;
-  color: var(--primary-dark-grey);
+  color: #585858;
 }
 
-.footer a:hover {
+.footer button:hover {
   text-decoration: none;
   color: var(--primary-orange);
   cursor: pointer;
