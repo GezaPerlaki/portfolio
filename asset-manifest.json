@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.69743130.chunk.css",
-    "main.js": "/portfolio/static/js/main.1b50f5f5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1b50f5f5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8448f2dc.chunk.css",
+    "main.js": "/portfolio/static/js/main.0b65b713.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0b65b713.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.38a6953d.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.38a6953d.js.map",
     "static/css/2.cc4b6647.chunk.css": "/portfolio/static/css/2.cc4b6647.chunk.css",
-    "static/js/2.b5e325b8.chunk.js": "/portfolio/static/js/2.b5e325b8.chunk.js",
-    "static/js/2.b5e325b8.chunk.js.map": "/portfolio/static/js/2.b5e325b8.chunk.js.map",
+    "static/js/2.fe0d997b.chunk.js": "/portfolio/static/js/2.fe0d997b.chunk.js",
+    "static/js/2.fe0d997b.chunk.js.map": "/portfolio/static/js/2.fe0d997b.chunk.js.map",
     "static/js/3.3d3e806e.chunk.js": "/portfolio/static/js/3.3d3e806e.chunk.js",
     "static/js/3.3d3e806e.chunk.js.map": "/portfolio/static/js/3.3d3e806e.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.cc4b6647.chunk.css.map": "/portfolio/static/css/2.cc4b6647.chunk.css.map",
-    "static/css/main.69743130.chunk.css.map": "/portfolio/static/css/main.69743130.chunk.css.map",
-    "static/js/2.b5e325b8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b5e325b8.chunk.js.LICENSE.txt",
+    "static/css/main.8448f2dc.chunk.css.map": "/portfolio/static/css/main.8448f2dc.chunk.css.map",
+    "static/js/2.fe0d997b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fe0d997b.chunk.js.LICENSE.txt",
     "static/media/BookSearch-BlackWhite.7e9f312e.png": "/portfolio/static/media/BookSearch-BlackWhite.7e9f312e.png",
     "static/media/BookSearch.41854465.png": "/portfolio/static/media/BookSearch.41854465.png",
     "static/media/Logo.14fd6255.webp": "/portfolio/static/media/Logo.14fd6255.webp",
+    "static/media/MasterMind-BlackWhite.ebb6161d.png": "/portfolio/static/media/MasterMind-BlackWhite.ebb6161d.png",
+    "static/media/MasterMind.6df49f7d.png": "/portfolio/static/media/MasterMind.6df49f7d.png",
+    "static/media/Movies-Hub-BlackWhite.c117149a.png": "/portfolio/static/media/Movies-Hub-BlackWhite.c117149a.png",
+    "static/media/Movies-Hub.dac308f4.png": "/portfolio/static/media/Movies-Hub.dac308f4.png",
     "static/media/Tetris-BlackWhite.840246aa.png": "/portfolio/static/media/Tetris-BlackWhite.840246aa.png",
     "static/media/Tetris.1cefafdc.png": "/portfolio/static/media/Tetris.1cefafdc.png",
     "static/media/Header.css": "/portfolio/static/media/headerImage.dc240029.png",
@@ -25,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.38a6953d.js",
     "static/css/2.cc4b6647.chunk.css",
-    "static/js/2.b5e325b8.chunk.js",
-    "static/css/main.69743130.chunk.css",
-    "static/js/main.1b50f5f5.chunk.js"
+    "static/js/2.fe0d997b.chunk.js",
+    "static/css/main.8448f2dc.chunk.css",
+    "static/js/main.0b65b713.chunk.js"
   ]
 }
