@@ -48,28 +48,28 @@ const Footer = () => {
           <div className=' align-items-center'>
             <div className='d-flex justify-content-center'>
               <FacebookShareButton
-                url={'https://www.'}
+                url={'https://gezaperlaki.github.io/portfolio/'}
                 quote={'Front-End Developer'}
                 hashtag='#javascript #react #bootstrap'
               >
                 <FacebookIcon className='mx-3' size={36} />
               </FacebookShareButton>
               <TwitterShareButton
-                url={'https://www.'}
+                url={'https://gezaperlaki.github.io/portfolio/'}
                 quote={'Front-End Developer'}
                 hashtag='#javascript #react #bootstrap'
               >
                 <TwitterIcon className='mx-3' size={36} />
               </TwitterShareButton>
               <RedditShareButton
-                url={'https://www.'}
+                url={'https://gezaperlaki.github.io/portfolio/'}
                 quote={'Front-End Developer'}
                 hashtag='#javascript #react #bootstrap'
               >
                 <RedditIcon className='mx-3' size={36} />
               </RedditShareButton>
               <LinkedinShareButton
-                url={'https://www.'}
+                url={'https://gezaperlaki.github.io/portfolio/'}
                 quote={'Front-End Developer'}
                 hashtag='#javascript #react #bootstrap'
               >

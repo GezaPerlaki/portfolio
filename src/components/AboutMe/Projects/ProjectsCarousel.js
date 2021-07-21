@@ -5,6 +5,10 @@ import BookSearchBlackWhite from '../../../images/BookSearch-BlackWhite.png';
 import BookSearch from '../../../images/BookSearch.png';
 import Tetris from '../../../images/Tetris.png';
 import TetrisBlackWhite from '../../../images/Tetris-BlackWhite.png';
+import MoviesHub from '../../../images/Movies-Hub.png';
+import MoviesHubBlackWhite from '../../../images/Movies-Hub-BlackWhite.png';
+import MasterMind from '../../../images/MasterMind.png';
+import MasterMindBlackWhite from '../../../images/MasterMind-BlackWhite.png';
 
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -22,9 +26,7 @@ const ProjectsCarousel = () => {
     fadeIn: true,
     fadeInSpeed: 500,
   });
-
-  console.log('popupboxConfig-1: ', popupboxConfig);
-
+  //Book Search
   const openPopupBoxBookSearch = () => {
     setPopupboxConfig({
       titleBar: {
@@ -34,7 +36,6 @@ const ProjectsCarousel = () => {
       fadeIn: true,
       fadeInSpeed: 500,
     });
-    console.log('popupboxConfig-Book...: ', popupboxConfig);
     const content = (
       <>
         <img
@@ -68,7 +69,7 @@ const ProjectsCarousel = () => {
     fadeIn: true,
     fadeInSpeed: 500,
   };
-
+  //Tetris
   const openPopupBoxTetris = () => {
     setPopupboxConfig({
       titleBar: {
@@ -78,7 +79,6 @@ const ProjectsCarousel = () => {
       fadeIn: true,
       fadeInSpeed: 500,
     });
-    console.log('popupboxConfig-Tetris: ', popupboxConfig);
     const content = (
       <>
         <img
@@ -112,7 +112,75 @@ const ProjectsCarousel = () => {
     fadeIn: true,
     fadeInSpeed: 500,
   };
+  //Movies-Hub
+  const openPopupBoxMoviesHub = () => {
+    setPopupboxConfig({
+      titleBar: {
+        enable: true,
+        text: 'Movies-Hub*',
+      },
+      fadeIn: true,
+      fadeInSpeed: 500,
+    });
+    const content = (
+      <>
+        <img
+          className='projects-image-popupbox'
+          src={MoviesHub}
+          alt='Movies-Hub...'
+        />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
+          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+        </p>
+        <b>GitHub:</b>{' '}
+        <a
+          className='hyper-link'
+          onClick={() =>
+            window.open('https://gezaperlaki.github.io/movies-hub/')
+          }
+        >
+          https://gezaperlaki.github.io/movies-hub/
+        </a>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
 
+  const popupboxConfigMoviesHub = {
+    titleBar: {
+      enable: true,
+      text: 'Movies-Hub project.',
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+  //MasterMind
+  const openPopupBoxMasterMind = () => {
+    const content = (
+      <>
+        <img
+          className='projects-image-popupbox'
+          src={MasterMind}
+          alt='MasterMind...'
+        />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
+          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+        </p>
+        <b>GitHub:</b>{' '}
+        <a
+          className='hyper-link'
+          onClick={() =>
+            window.open('https://gezaperlaki.github.io/MasterMind/')
+          }
+        >
+          https://gezaperlaki.github.io/MasterMind/
+        </a>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
   return (
     <div className='container carousel-container'>
       <Carousel
@@ -138,7 +206,6 @@ const ProjectsCarousel = () => {
               <FontAwesomeIcon className='projects-icon' icon={faSearchPlus} />
             </div>
           </div>
-          <p className='legend'>Project 1</p>
         </div>
         <div className='my-carousel-item'>
           <div className='image-box-wrapper row justify-content-center'>
@@ -152,29 +219,40 @@ const ProjectsCarousel = () => {
               <FontAwesomeIcon className='projects-icon' icon={faSearchPlus} />
             </div>
           </div>
-          <p className='legend'>Project 2</p>
         </div>
         <div className='my-carousel-item'>
           <div className='image-box-wrapper row justify-content-center'>
-            <div
-              className='projects-image-box'
-              onClick={openPopupBoxBookSearch}
-            >
+            <div className='projects-image-box' onClick={openPopupBoxMoviesHub}>
               <img
                 className='projects-image'
-                src={BookSearch}
+                src={MoviesHubBlackWhite}
                 alt='BookSearch Clone Project...'
               />
               {/*<div className='overflow'></div>*/}
               <FontAwesomeIcon className='projects-icon' icon={faSearchPlus} />
             </div>
           </div>
-          <p className='legend'>Project 3</p>
+        </div>
+        <div className='my-carousel-item'>
+          <div className='image-box-wrapper row justify-content-center'>
+            <div
+              className='projects-image-box'
+              onClick={openPopupBoxMasterMind}
+            >
+              <img
+                className='projects-image'
+                src={MasterMindBlackWhite}
+                alt='MasterMind game Project...'
+              />
+              {/*<div className='overflow'></div>*/}
+              <FontAwesomeIcon className='projects-icon' icon={faSearchPlus} />
+            </div>
+          </div>
         </div>
       </Carousel>
-      {console.log('popupboxConfig*: ', { ...popupboxConfig })}
-      <PopupboxContainer {...popupboxConfigTetris} />
-      <PopupboxContainer {...popupboxConfigBookSearch} />
+      <PopupboxContainer />
+      {/*     <PopupboxContainer {...popupboxConfigBookSearch} />
+      <PopupboxContainer {...popupboxConfigMoviesHub} />*/}
     </div>
   );
 };

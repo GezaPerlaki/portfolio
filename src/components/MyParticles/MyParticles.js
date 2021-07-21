@@ -65,7 +65,7 @@ class MyParticles extends Component {
           },
           particles: {
             color: {
-              value: '#ffffff',
+              value: '#B2B2B2',
             },
             links: {
               color: '#ffffff',

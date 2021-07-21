@@ -34,11 +34,23 @@
   padding: 4rem 0;
 }
 
+input.form-control,
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
 .contacts input:focus,
 .contacts textarea:focus {
   background: transparent;
   color: #f5aa09;
   border-bottom: 0.125rem solid #6b6b6b;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #f5aa09;
+  transition: background-color 50000s ease-in-out 2s;
 }
 
 .contacts textarea {
@@ -52,7 +64,7 @@
 }
 
 .contact-btn:hover {
-  background-color: #f78707;
+  background-color: rgb(126, 1, 1);
 }
 
 .line {
@@ -72,14 +84,6 @@ input:focus + .line,
 textarea:focus + .line {
   width: 100%;
   transition: width 0.5s ease-in-out;
-}
-
-input.form-control {
-  margin: -0.3rem 0;
-}
-
-textarea.form-control {
-  margin: -0.3rem 0;
 }
 
 .error-message {

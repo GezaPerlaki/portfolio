@@ -8,7 +8,6 @@ const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState('');
   const {
     register,
-    watch,
     formState: { errors },
     handleSubmit,
   } = useForm(); /*
@@ -22,9 +21,9 @@ const Contacts = () => {
 
   const onSubmit = (data, e) => {
     {
-      /*e.preventDefault();*/
+      e.preventDefault();
     }
-    console.log(data, e);
+    console.log('data: ', data);
 
     send('service_ID', 'template_ID', data, 'userRzCsq6fAAumDGDbktguyv')
       .then(response => {
@@ -36,6 +35,8 @@ const Contacts = () => {
       .catch(err => {
         console.log('FAILED...', err);
         setSuccessMessage('Email küldése sikertelen!');
+        data.name = '';
+        console.log('data after sending: ', data);
       });
     e.target.reset();
   };
@@ -67,6 +68,7 @@ const Contacts = () => {
                   placeholder='Name'
                   /* value={toSend.name}
                   onChange={handleChange}*/
+
                   {...register('name', {
                     required: 'Please enter your name',
                     maxLength: {
@@ -76,7 +78,7 @@ const Contacts = () => {
                     },
                   })}
                 />
-                <div className='line'></div>
+                <div className='line line-position-correction'></div>
               </div>
               {errors.name && (
                 <span className='error-message'>{errors.name.message}</span>
@@ -94,7 +96,7 @@ const Contacts = () => {
                     required: 'Please add your phone number',
                   })}
                 />
-                <div className='line line-position-correction'></div>
+                <div className='line '></div>
               </div>
               {errors.phone && (
                 <span className='error-message'>{errors.phone.message}</span>
