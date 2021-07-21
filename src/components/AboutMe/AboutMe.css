@@ -10,7 +10,7 @@
 }
 
 .profile-img {
-  opacity: 50%;
+  opacity: 50% !important;
   width: 16rem;
   border-radius: 50%;
   box-shadow: 3px 3px 3px 3px;
