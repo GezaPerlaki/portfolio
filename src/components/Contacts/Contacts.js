@@ -50,8 +50,8 @@ const Contacts = () => {
       <div className='text-center'>
         <h2>contact me</h2>
         <p>
-          Please fill out the form and describe you project needs and I'll
-          contact you as soon as possible.
+          Please fill out the form and describe your project needs. I'll contact
+          you as soon as possible.
         </p>
         <span className='success-message'>{successMessage}</span>
       </div>
@@ -133,7 +133,7 @@ const Contacts = () => {
                   /*  value={toSend.subject}
                   onChange={handleChange}*/
                   {...register('subject', {
-                    required: 'OOPS, you forget to add the subject.',
+                    required: 'OOPS, you forgot to add the subject.',
                   })}
                 />
                 <div className='line'></div>
@@ -150,12 +150,12 @@ const Contacts = () => {
                 <textarea
                   className='form-control'
                   type='text'
-                  placeholder='Please describe shortly you project...'
+                  placeholder='Please describe briefly you project...'
                   name='description'
                   /*  value={toSend.description}
                   onChange={handleChange}*/
                   {...register('description', {
-                    required: 'Please describe shortly your project needs...',
+                    required: 'Please describe briefly your project needs...',
                   })}
                 ></textarea>
 

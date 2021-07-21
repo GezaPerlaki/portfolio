@@ -23,7 +23,13 @@ const AboutMe = () => {
         <div className='col-lg-6 col-mx-12'>
           <h2 className='about-h2'>about me</h2>
           <p className='about-p text-center'>
-            Hello! I am Geza Perlaki Front-End Web Developer.
+            Hello! I am Geza Perlaki Front-End Web Developer. <br /> I have made
+            electrotechnical studies, and I was working as a technician for many
+            years. During these years I have realised that programmer knowledge
+            is indispensable for my work. That's why I did a C, C++ course. In
+            the process of time I became interested for web-development, and to
+            deepen my knowledge I have finished another course. Now I am
+            dedicated to web-developement.
           </p>
         </div>
       </div>

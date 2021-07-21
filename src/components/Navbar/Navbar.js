@@ -30,57 +30,27 @@ const Navbar = () => {
       >
         <ul className='navbar-nav  mb-2 mb-lg-0'>
           <li className='nav-item'>
-            <Link
-              smooth={true}
-              to='home'
-              className='nav-link'
-              aria-current='page'
-              href='#'
-            >
+            <Link to='home' className='nav-link' aria-current='page' href='#'>
               Home
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
-              smooth={true}
-              to='about'
-              offset={-54}
-              className='nav-link'
-              href='#'
-            >
+            <Link to='about' offset={-54} className='nav-link' href='#'>
               about me
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
-              smooth={true}
-              to='services'
-              offset={-54}
-              className='nav-link'
-              href='#'
-            >
+            <Link to='services' offset={-54} className='nav-link' href='#'>
               services
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
-              smooth={true}
-              to='projects'
-              offset={-54}
-              className='nav-link'
-              href='#'
-            >
+            <Link to='projects' offset={-54} className='nav-link' href='#'>
               project
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
-              smooth={true}
-              to='contacts'
-              offset={-54}
-              className='nav-link'
-              href='#'
-            >
+            <Link to='contacts' offset={-54} className='nav-link' href='#'>
               contacts
             </Link>
           </li>

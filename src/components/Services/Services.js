@@ -28,7 +28,7 @@ const Services = () => {
                 <FontAwesomeIcon className='icon' icon={faFileCode} size='2x' />
               </div>
               <h3>Web Dewelopment</h3>
-              <p>Your website will be build with an new proven technologies.</p>
+              <p>Your website will be build with new proven technologies.</p>
             </div>
           </div>
           <div className='col-lg-3 col-md-6 col-sm-6'>
@@ -42,7 +42,7 @@ const Services = () => {
               </div>
               <h3>Facebook Ads SMM</h3>
               <p>
-                Your potential client well see your services or product on
+                Your potential client will see your services or product on
                 Facebook.
               </p>
             </div>

@@ -43,19 +43,22 @@ const ProjectsCarousel = () => {
           src={BookSearch}
           alt='Book-Search Project...'
         />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
-        </p>
-        <b>GitHub:</b>{' '}
-        <a
-          className='hyper-link'
-          onClick={() =>
-            window.open('https://gezaperlaki.github.io/book-search/')
-          }
-        >
-          https://gezaperlaki.github.io/book-search/
-        </a>
+        <div className='d-flex flex-column align-items-center '>
+          <div>
+            <p>Have a good read!</p>
+          </div>
+          <div>
+            <b>Link:</b>{' '}
+            <a
+              className='hyper-link'
+              onClick={() =>
+                window.open('https://gezaperlaki.github.io/book-search/')
+              }
+            >
+              https://gezaperlaki.github.io/book-search/
+            </a>
+          </div>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -86,19 +89,22 @@ const ProjectsCarousel = () => {
           src={Tetris}
           alt='Tetris game Project...'
         />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
-        </p>
-        <b>GitHub:</b>{' '}
-        <a
-          className='hyper-link'
-          onClick={() =>
-            window.open('https://gezaperlaki.github.io/kv-tetris/')
-          }
-        >
-          https://gezaperlaki.github.io/kv-tetris/
-        </a>
+        <div className='d-flex flex-column align-items-center '>
+          <div>
+            <p>Let's play!</p>
+          </div>
+          <div>
+            <b>Link:</b>{' '}
+            <a
+              className='hyper-link'
+              onClick={() =>
+                window.open('https://gezaperlaki.github.io/kv-tetris/')
+              }
+            >
+              https://gezaperlaki.github.io/kv-tetris/
+            </a>
+          </div>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -129,19 +135,22 @@ const ProjectsCarousel = () => {
           src={MoviesHub}
           alt='Movies-Hub...'
         />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
-        </p>
-        <b>GitHub:</b>{' '}
-        <a
-          className='hyper-link'
-          onClick={() =>
-            window.open('https://gezaperlaki.github.io/movies-hub/')
-          }
-        >
-          https://gezaperlaki.github.io/movies-hub/
-        </a>
+        <div className='d-flex flex-column align-items-center'>
+          <div>
+            <p>Enjoy!</p>
+          </div>
+          <div>
+            <b>Link:</b>{' '}
+            <a
+              className='hyper-link'
+              onClick={() =>
+                window.open('https://gezaperlaki.github.io/movies-hub/')
+              }
+            >
+              https://gezaperlaki.github.io/movies-hub/
+            </a>
+          </div>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -164,19 +173,22 @@ const ProjectsCarousel = () => {
           src={MasterMind}
           alt='MasterMind...'
         />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
-        </p>
-        <b>GitHub:</b>{' '}
-        <a
-          className='hyper-link'
-          onClick={() =>
-            window.open('https://gezaperlaki.github.io/MasterMind/')
-          }
-        >
-          https://gezaperlaki.github.io/MasterMind/
-        </a>
+        <div className='d-flex flex-column align-items-center'>
+          <div>
+            <p>Good luck!</p>
+          </div>
+          <div>
+            <b>Link:</b>{' '}
+            <a
+              className='hyper-link'
+              onClick={() =>
+                window.open('https://gezaperlaki.github.io/MasterMind/')
+              }
+            >
+              https://gezaperlaki.github.io/MasterMind/
+            </a>
+          </div>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
