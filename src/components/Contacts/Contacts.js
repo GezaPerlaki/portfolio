@@ -25,7 +25,7 @@ const Contacts = () => {
     }
     console.log('data: ', data);
 
-    send('service_ID', 'template_ID', data, 'userRzCsq6fAAumDGDbktguyv')
+    send('service_ID', 'template_ID', data, 'user_RzCsq6fAAumDGDbktguyv')
       .then(response => {
         console.log('SUCCESS!', response.status, response.text);
         setSuccessMessage(

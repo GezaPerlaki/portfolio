@@ -10,7 +10,7 @@
 }
 
 .profile-img {
-  opacity: 50% !important;
+  opacity: 0.5 !important;
   width: 16rem;
   border-radius: 50%;
   box-shadow: 3px 3px 3px 3px;
@@ -49,7 +49,7 @@
 
 .skill-item:hover {
   cursor: pointer;
-  opacity: 50%;
+  opacity: 0.5;
   background-image: ;
 }
 
