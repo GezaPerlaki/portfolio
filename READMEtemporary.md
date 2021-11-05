@@ -1,3 +1,3 @@
 # portfolio temporary readme
 
-*Átnézni az összes portfólióhoz kapcsolódó munkát.
+* Átnézni az összes portfólióhoz kapcsolódó munkát.
