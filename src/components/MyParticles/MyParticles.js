@@ -78,9 +78,10 @@ class MyParticles extends Component {
               enable: true,
             },
             move: {
+              bounce: 'false',
               direction: 'none',
               enable: true,
-              outMode: 'bounce',
+              outMode: 'out',
               random: false,
               speed: 2,
               straight: false,

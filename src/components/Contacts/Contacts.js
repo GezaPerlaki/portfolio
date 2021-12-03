@@ -34,7 +34,7 @@ const Contacts = () => {
       })
       .catch(err => {
         console.log('FAILED...', err);
-        setSuccessMessage('Email küldése sikertelen!');
+        setSuccessMessage('Failed to send email!');
         data.name = '';
         console.log('data after sending: ', data);
       });
@@ -78,7 +78,7 @@ const Contacts = () => {
                     },
                   })}
                 />
-                <div className='line line-position-correction'></div>
+                <div className='line '></div>
               </div>
               {errors.name && (
                 <span className='error-message'>{errors.name.message}</span>
@@ -96,7 +96,7 @@ const Contacts = () => {
                     required: 'Please add your phone number',
                   })}
                 />
-                <div className='line '></div>
+                <div className='line line-position-correction'></div>
               </div>
               {errors.phone && (
                 <span className='error-message'>{errors.phone.message}</span>
@@ -118,7 +118,7 @@ const Contacts = () => {
                     },
                   })}
                 />
-                <div className='line line-position-correction'></div>
+                <div className='line'></div>
               </div>
               {errors.email && (
                 <span className='error-message'>{errors.email.message}</span>
@@ -136,7 +136,7 @@ const Contacts = () => {
                     required: 'OOPS, you forgot to add the subject.',
                   })}
                 />
-                <div className='line'></div>
+                <div className='line line-position-correction'></div>
               </div>
 
               {errors.subject && (
