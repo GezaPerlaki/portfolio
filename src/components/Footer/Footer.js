@@ -76,7 +76,7 @@ const Footer = () => {
                 <LinkedinIcon className='mx-3' size={36} />
               </LinkedinShareButton>
             </div>
-            <p className='pt-3 text-center'>Copyright 2021&copy;</p>
+            <p className='pt-3 text-center'>Copyright 2022&copy;</p>
           </div>
         </div>
       </div>
