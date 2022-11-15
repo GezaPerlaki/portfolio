@@ -1,2 +1,2 @@
 
-*Adatavédelmi dolgok és impressum hozzáadása
+* Adatavédelmi dolgok és impressum hozzáadása
